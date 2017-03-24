@@ -1,0 +1,28 @@
+{
+  "galaxy.meteor.com": {
+    "env": {
+        "MONGO_URL": "mongodb://giovas94:Buffon1801@ds061506.mlab.com:61506/grontify-sandbox",
+        "MAIL_URL": "smtp://postmaster%40sandbox722815bc0c534e2d96279f93adf3f29b.mailgun.org:dedaba6cbd74566d6a57bb5c8de86a69@smtp.mailgun.org:587"
+    }
+  },
+  "private": {
+    "openpay": {
+      "MERCHANT_ID": "mzjwuxpp9mziwukxn0qi",
+      "PRIVATE_KEY": "sk_180fa6327d8c4517a7ee5f611d415c50",
+      "PRODUCTION_READY": false
+    }
+  },
+  "public": {
+    "openpay": {
+      "MERCHANT_ID": "mzjwuxpp9mziwukxn0qi",
+      "PUBLIC_KEY": "pk_d28d7b1045a64f938f4d03e4ab9418c9",
+      "SANDBOX_MODE": true
+    },
+    "firebase": {
+      "API_KEY": "AIzaSyBhJPp0YnUtu1BbUcgwkk4x_rjdQQIwR-s",
+      "AUTH_DOMAIN": "grontify-e72d5.firebaseapp.com",
+      "DATABASE_URL": "https://grontify-e72d5.firebaseio.com",
+      "STORAGE_BUCKET": "grontify-e72d5.appspot.com"
+    }
+  }
+}

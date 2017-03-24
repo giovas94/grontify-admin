@@ -1,0 +1,49 @@
+/* CSS declarations go here */
+.page-flexbox-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+@media (max-width: 600px) {
+  h2 {
+    font-size: 2.56rem;
+  }
+}
+
+@media (min-width: 993px) {
+  .brand-logo img {
+    margin-top: 0.4rem;
+    margin-left: 1rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .brand-logo img {
+    margin-top: 0.4rem;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .brand-logo img {
+    margin-top: 0.2rem;
+    margin-left: 0;
+  }
+}
+
+.tabs .tab a {
+  color: #00838f;
+}
+
+.tabs .tab a:hover {
+  color: #e0f7fa;
+}
+
+.tabs .indicator {
+  background-color: #00838f;
+}
